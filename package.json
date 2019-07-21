@@ -1,0 +1,29 @@
+{
+  "name": "hexbot",
+  "version": "1.0.0",
+  "description": "hexbot",
+  "main": "index.js",
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "run",
+    "start": "browser-sync start --server public --files public",
+    "deploy": "echo 'To setup deployment run: yarn setup-deploy'",
+    "setup-deploy": "app-app --deploy && yarn deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alsleaders/hexbot.git"
+  },
+  "keywords": [
+    "hexbot"
+  ],
+  "author": "alsleaders",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alsleaders/hexbot/issues"
+  },
+  "homepage": "https://github.com/alsleaders/hexbot#readme"
+}
